@@ -19,8 +19,9 @@ MODELS = [
     # "gpt-4-32k",  # 当前指向 gpt-4-32k-0613。32768 tokens
     # "gpt-4-0613", # 从 2023 年 6 月 13 日开始的 gpt-4 快照，改进了函数调用支持。
     # "gpt-4-32k-0613", # 从 2023 年 6 月 13 日开始的 gpt-4-32k 快照，改进了函数调用支持。
+    "gpt-4o"	# GPT-4o: OpenAI high-intelligence flagship model for complex, multi-step tasks. GPT-4o is cheaper and faster than GPT-4 Turbo. Currently points to gpt-4o-2024-05-13 [1].
 ]
-DEFAULT_MODEL = MODELS[-2]
+DEFAULT_MODEL = MODELS[-1]
 MODEL_TO_MAX_TOKENS = {
     "gpt-3.5-turbo-1106": 4096,
     "gpt-3.5-turbo": 4096,
